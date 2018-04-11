@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Gamepad Tester</string>
+
+    <!-- menu -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_keys">List buttons</string>
+    <string name="menu_axis">Axis</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_usb">Key Layout Files</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_faq">FAQ</string>
+    <!-- menu -->
+    <string name="menu_show_gamepad_view">Show gamepad</string>
+    <string name="menu_hide_gamepad_view">Hide gamepad</string>
+    <!-- menu -->
+    <string name="menu_devices">Devices</string>
+    <string name="menu_file_edit">Edit</string>
+    <string name="menu_file_save">Save</string>
+    <string name="menu_ignore_axis">Ignoring axis</string>
+    <string name="menu_lumiere">Lumiere</string>
+    <string name="menu_file_new">New file</string>
+    <string name="menu_bottom_backup">Make backup</string>
+    <string name="menu_bottom_delete">Delete</string>
+    <string name="menu_bottom_restore">Restore</string>
+
+    <!-- main -->
+    <string name="main_caption">Before start the app you should connect your device via Bluetooth or USB(OTG)</string>
+    <string name="main_button">Button</string>
+    <string name="main_keycode">Key code</string>
+    <string name="main_axis">Axis</string>
+    <string name="main_value">Value</string>
+    <string name="main_key">Key</string>
+    <string name="text_help">Guide:\n1. Connect gamepad and open app.\n2. Press all buttons on gamepad.\n3. If button is wrong, press on item of list and select your button.\n4. Tap on menu \"Save\".\n5. Reconnect gamepad or reboot Android.</string>
+
+    <!-- main items -->
+    <string name="main_item_test_gamepad">Test Gamepad</string>
+    <string name="main_item_test_axes">Test Axes</string>
+    <string name="main_item_connected">Connected</string>
+    <string name="main_item_list_devices">List devices</string>
+    <string name="main_item_list_backup">List backup</string>
+    <string name="main_item_list_temp">List temp</string>
+
+    <!-- list -->
+    <string name="list_empty">Empty</string>
+    <!-- settings -->
+    <string name="item_about">About</string>
+    <string name="version">Version %s</string>
+    <string name="dialog_send_email">Send email</string>
+    <string name="item_open_market">Open Play Market</string>
+    <string name="item_send_email">Send comments and suggestions</string>
+    <string name="item_faq_caption">FAQ</string>
+    <string name="item_faq_value">Frequently asked questions</string>
+
+    <!-- log -->
+    <string name="device_name">%s</string>
+    <string name="device_vid_pid" formatted="false">Vendor_%s_Product_%s</string>
+    <string name="vid_pid" formatted="false">Vendor_%s_Product_%s</string>
+
+    <!-- errors -->
+    <string name="file_name_title">Create file</string>
+    <string name="error_file_read_only">Read only</string>
+    <string name="error_file_exists">This file already exists!</string>
+    <string name="error_file_create">Error creating file!</string>
+    <string name="error_root_access">To create a file needed root!</string>
+    <string name="error_file_wrong">Set file name</string>
+    <string name="error_file_save">Error saving!</string>
+    <string name="error_file_save_ok">Saved</string>
+    <string name="error_file_save_message">Save file ?</string>
+    <string name="scancode">key %s</string>
+    <string name="replace">REPLACE</string>
+
+    <string name="dialog_delete">Delete %s ?</string>
+    <string name="error_file_delete">Can not delete!</string>
+    <string name="main_keyboard">Keyboard</string>
+    <string name="main_scancode">Scancode</string>
+    <string name="key_scancode_button">key %1$s %2$s</string>
+    <string name="text_name_new">> %s</string>
+    <string name="message_file_backup_ok">Backup created!</string>
+    <string name="message_file_backup_error">Cannot to make a backup!</string>
+    <string name="message_file_restore_ok">Successfully restored!</string>
+    <string name="message_file_restore_error">Cannot to restore a file!</string>
+    <string name="message_file_exists_replace">File already exists!</string>
+    <string name="title_connected">Connected</string>
+    <string name="about">About</string>
+    <!-- support -->
+    <string name="project_support">Support this app</string>
+    <string name="dialog_support_message">If you want to support this app, you can watch the video advertising.\nOpen video ?</string>
+    <string name="dialog_button_yes">YES</string>
+    <string name="dialog_support_result_error">Could not download video ads, please try again later!</string>
+    <string name="dialog_support_result_ok">Thank you for viewing the advertisement!</string>
+    <!-- lang -->
+    <string name="language">Language</string>
+    <string name="lang">English</string>
+    <string name="dialog_language">If this is not your native language and you want this app will be in your native language, you can email me.</string>
+    <!-- dialog fragment item -->
+    <string name="item_menu_delete">Delete file</string>
+    <string name="item_menu_make_backup">Make backup</string>
+    <string name="item_menu_make_restore">Restore</string>
+    <string name="item_menu_use_this_kl">Use this config</string>
+    <!-- dialog -->
+    <string name="dialog_error_unknown_vid_pid">You can not save to file, because unknown VID/PID !</string>
+    <string name="device"><![CDATA[<device_name>]]>\nVendor_????_Product_????</string>
+    <string name="dialog_moving_backups_title">Backups</string>
+    <string name="dialog_moving_backups">Moving..</string>
+    <!-- dialog -->
+    <string name="dialog_android_kitkat">Android 4.4 and below may incorrectly identify a gamepad (VID and PID) !</string>
+    <string name="dialog_android_kitkat_ok">UNDERSTAND</string>
+
+</resources>

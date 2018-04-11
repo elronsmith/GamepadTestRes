@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gamepad Tester</string>
+
+    <!-- menu -->
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_keys">Список кнопок</string>
+    <string name="menu_axis">Оси</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_usb">Устройства</string>
+    <string name="menu_save">Сохранить</string>
+    <string name="menu_faq">FAQ</string>
+    <!-- menu -->
+    <string name="menu_show_gamepad_view">Показать геймпад</string>
+    <string name="menu_hide_gamepad_view">Скрыть геймпад</string>
+    <!-- menu -->
+    <string name="menu_devices">Устройства</string>
+    <string name="menu_file_edit">Редактировать</string>
+    <string name="menu_file_save">Сохранить</string>
+    <string name="menu_ignore_axis">Игнорировать оси</string>
+    <string name="menu_lumiere">Lumiere</string>
+    <string name="menu_bottom_backup">Сделать резервную копию</string>
+    <string name="menu_bottom_delete">Удалить</string>
+    <string name="menu_bottom_restore">Восстановить</string>
+
+    <!-- main -->
+    <string name="main_caption">Перед запуском приложения подключите устройство через Bluetooth или USB(OTG)</string>
+    <string name="main_button">Кнопка</string>
+    <string name="main_keycode">Код</string>
+    <string name="main_axis">Ось</string>
+    <string name="main_value">Значение</string>
+    <string name="main_key">Клавиша</string>
+    <string name="text_help">Инструкция:\n1. Подключите геймпад и откройте приложение.\n2. Нажмите на все кнопки на геймпаде.\n3. Если кнопка не совпадает, то нажмите на элемент списка и выберите нужную кнопку.\n4. Нажмите на меню \"Сохранить\".\n5. Переподключите геймпад или перезагрузите Андроид.</string>
+
+    <!-- main items -->
+    <string name="main_item_test_gamepad">Тест геймпада</string>
+    <string name="main_item_test_axes">Тест осей</string>
+    <string name="main_item_connected">Подключенные</string>
+    <string name="main_item_list_devices">Список устройств</string>
+    <string name="main_item_list_backup">Резервная копия</string>
+    <string name="main_item_list_temp">Временная папка</string>
+
+    <!-- list -->
+    <string name="list_empty">Пусто</string>
+    <!-- settings -->
+    <string name="item_about">О программе</string>
+    <string name="version">Версия %s</string>
+    <string name="dialog_send_email">Отправить письмо</string>
+    <string name="item_open_market">Открыть Play Market</string>
+    <string name="item_send_email">Отправить замечания и предложения</string>
+    <string name="menu_file_new">Новый файл</string>
+    <string name="item_faq_caption">FAQ</string>
+    <string name="item_faq_value">Часто задаваемые вопросы</string>
+
+    <!-- log -->
+    <string name="device_name">%s</string>
+    <string name="device_vid_pid" formatted="false">Vendor_%s_Product_%s</string>
+    <string name="vid_pid" formatted="false">Vendor_%s_Product_%s</string>
+
+    <!-- errors -->
+    <string name="file_name_title">Создать файл</string>
+    <string name="error_file_read_only">Только для чтения</string>
+    <string name="error_file_exists">Такой файл уже существует!</string>
+    <string name="error_file_create">Ошибка создания файла!</string>
+    <string name="error_root_access">Для создания файла нужны права root-пользователя!</string>
+    <string name="error_file_wrong">Укажите имя файла</string>
+    <string name="error_file_save">Ошибка при сохранении!</string>
+    <string name="error_file_save_ok">Сохранено</string>
+    <string name="error_file_save_message">Сохранить файл ?</string>
+    <string name="scancode">key %s</string>
+    <string name="dialog_delete">Удалить %s ?</string>
+    <string name="error_file_delete">Не удалось удалить!</string>
+    <string name="main_keyboard">Клавиатура</string>
+    <string name="main_scancode">Скан-код</string>
+    <string name="key_scancode_button">key %1$s %2$s</string>
+    <string name="text_name_new">> %s</string>
+    <string name="replace">ЗАМЕНИТЬ</string>
+
+    <string name="message_file_backup_ok">Резервная копия создана!</string>
+    <string name="message_file_backup_error">Не удалось создать резервную копию!</string>
+    <string name="message_file_restore_ok">Файл восстановлен!</string>
+    <string name="message_file_restore_error">Не удалось восстановить файл!</string>
+    <string name="message_file_exists_replace">Файл уже существует!</string>
+    <string name="title_connected">Подключенные</string>
+    <string name="about">О программе</string>
+    <!-- support -->
+    <string name="project_support">Помощь в развитии</string>
+    <string name="dialog_support_message">Если вы хотите чтобы это приложение развивалось, то вы можете посмотреть видео рекламу.\nПоказать видео рекламу ?</string>
+    <string name="dialog_button_yes">ДА</string>
+    <string name="dialog_support_result_error">Не удалось загрузить видео рекламу, попробуйте позже!</string>
+    <string name="dialog_support_result_ok">Спасибо за просмотр рекламы!</string>
+    <!-- lang -->
+    <string name="language">Язык</string>
+    <string name="lang">Русский</string>
+    <string name="dialog_language">Если это не ваш родной язык и вы хотите чтобы приложение было на вашем родном язык, то напишите мне на почту.</string>
+    <!-- dialog fragment item -->
+    <string name="item_menu_delete">Удалить файл</string>
+    <string name="item_menu_make_backup">Сделать резервную копию</string>
+    <string name="item_menu_make_restore">Восстановить</string>
+    <string name="item_menu_use_this_kl">Использовать эту конфигурацию</string>
+    <!-- dialog -->
+    <string name="dialog_error_unknown_vid_pid">Нельзя сохранить в файл, т.к. неизвестен VID и PID !</string>
+    <string name="device"><![CDATA[<имя_устройства>]]>\nVendor_????_Product_????</string>
+    <string name="dialog_moving_backups_title">Резервная копия</string>
+    <string name="dialog_moving_backups">Перемещение..</string>
+    <!-- dialog -->
+    <string name="dialog_android_kitkat">Android 4.4 и ниже могут неправильно определять геймпад (а точнее VID и PID) !</string>
+    <string name="dialog_android_kitkat_ok">ПОНЯТНО</string>
+
+</resources>
