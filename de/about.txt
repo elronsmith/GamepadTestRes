@@ -1,17 +1,17 @@
 
 Version: 18.04.01
-Developer: Elron
+Entwickler: Elron
 Email: help.gamepad.tester@gmail.com
-Translate to german: <your_name>
-Translate to spanish: <your_name>
+Übersetzung auf deutsch: <Roman F.>
+Übersetzung auf spanisch: <your_name>
 
 Version 18.04.01
- - new design and navigation
- - added FAQ
- - add language german
+ - Neues Design und Navigation
+ - FAQ hinzugefügt
+ - Deutsche Sprache hinzugefügt
 
 Version 17.03.24
- - bug fixes
+ - Fehler behoben
 
 Version 16.09.11
- - release
+ - Veröffentlichung
