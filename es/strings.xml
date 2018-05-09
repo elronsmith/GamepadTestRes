@@ -54,8 +54,8 @@
 
     <!-- log -->
     <string name="device_name">%s</string>
-    <string name="device_vid_pid" formatted="false">Vendor_%s_Product_%s</string>
-    <string name="vid_pid" formatted="false">Vendor_%s_Product_%s</string>
+    <string name="device_vid_pid">Vendor_%!$s_Product_%2$s</string>
+    <string name="vid_pid">Vendor_%1$s_Product_%2$s</string>
 
     <!-- errors -->
     <string name="file_name_title">Create file</string>
@@ -69,6 +69,9 @@
     <string name="error_file_save_message">Save file ?</string>
     <string name="scancode">key %s</string>
     <string name="replace">REPLACE</string>
+    <string name="error_cant_create_new_file_with_root">No permissions to create new file!</string>
+    <string name="error_file_create_ok">File created</string>
+    <string name="error_file_create_incorrect">Incorrect file format</string>
 
     <string name="dialog_delete">Delete %s ?</string>
     <string name="error_file_delete">Can not delete!</string>
@@ -84,7 +87,7 @@
     <string name="title_connected">Connected</string>
     <string name="about">About</string>
     <!-- support -->
-    <string name="project_support">Support this app</string>
+    <string name="project_donate">Support this app</string>
     <string name="dialog_support_message">If you want to support this app, you can watch the video advertising.\nOpen video ?</string>
     <string name="dialog_button_yes">YES</string>
     <string name="dialog_support_result_error">Could not download video ads, please try again later!</string>
@@ -106,5 +109,9 @@
     <!-- dialog -->
     <string name="dialog_android_kitkat">Android 4.4 and below may incorrectly identify a gamepad (VID and PID) !</string>
     <string name="dialog_android_kitkat_ok">UNDERSTAND</string>
+    <!-- dialog donate -->
+    <string name="dialog_donate_title">Donate</string>
+    <string name="dialog_donate_ok">OK</string>
+    <string name="dialog_donate_cancel">CANCEL</string>
 
 </resources>

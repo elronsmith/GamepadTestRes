@@ -55,8 +55,8 @@
 
     <!-- log -->
     <string name="device_name">%s</string>
-    <string name="device_vid_pid" formatted="false">Vendor_%s_Product_%s</string>
-    <string name="vid_pid" formatted="false">Vendor_%s_Product_%s</string>
+    <string name="device_vid_pid">Vendor_%!$s_Product_%2$s</string>
+    <string name="vid_pid">Vendor_%1$s_Product_%2$s</string>
 
     <!-- errors -->
     <string name="file_name_title">Создать файл</string>
@@ -76,6 +76,9 @@
     <string name="key_scancode_button">key %1$s %2$s</string>
     <string name="text_name_new">> %s</string>
     <string name="replace">ЗАМЕНИТЬ</string>
+    <string name="error_cant_create_new_file_with_root">Нет разрешения на создание файла!</string>
+    <string name="error_file_create_ok">Файл создан</string>
+    <string name="error_file_create_incorrect">Не верный формат файла</string>
 
     <string name="message_file_backup_ok">Резервная копия создана!</string>
     <string name="message_file_backup_error">Не удалось создать резервную копию!</string>
@@ -85,7 +88,7 @@
     <string name="title_connected">Подключенные</string>
     <string name="about">О программе</string>
     <!-- support -->
-    <string name="project_support">Помощь в развитии</string>
+    <string name="project_donate">Помощь в развитии</string>
     <string name="dialog_support_message">Если вы хотите чтобы это приложение развивалось, то вы можете посмотреть видео рекламу.\nПоказать видео рекламу ?</string>
     <string name="dialog_button_yes">ДА</string>
     <string name="dialog_support_result_error">Не удалось загрузить видео рекламу, попробуйте позже!</string>
@@ -107,5 +110,9 @@
     <!-- dialog -->
     <string name="dialog_android_kitkat">Android 4.4 и ниже могут неправильно определять геймпад (а точнее VID и PID) !</string>
     <string name="dialog_android_kitkat_ok">ПОНЯТНО</string>
+    <!-- dialog donate -->
+    <string name="dialog_donate_title">Donate</string>
+    <string name="dialog_donate_ok">OK</string>
+    <string name="dialog_donate_cancel">CANCEL</string>
 
 </resources>
