@@ -55,7 +55,7 @@
 
     <!-- log -->
     <string name="device_name">%s</string>
-    <string name="device_vid_pid">Vendor_%!$s_Product_%2$s</string>
+    <string name="device_vid_pid">Vendor_%1$s_Product_%2$s</string>
     <string name="vid_pid">Vendor_%1$s_Product_%2$s</string>
 
     <!-- errors -->
@@ -64,10 +64,12 @@
     <string name="error_file_exists">Такой файл уже существует!</string>
     <string name="error_file_create">Ошибка создания файла!</string>
     <string name="error_root_access">Для создания файла нужны права root-пользователя!</string>
+    <string name="error_save_root_access">Для сохранения файла нужны права root-пользователя!</string>
     <string name="error_file_wrong">Укажите имя файла</string>
     <string name="error_file_save">Ошибка при сохранении!</string>
     <string name="error_file_save_ok">Сохранено</string>
     <string name="error_file_save_message">Сохранить файл ?</string>
+    <string name="error_system_in_ro_mode">Файловая система в режиме только для чтения. Перемонтируйте в режим для записи и попробуйте снова.</string>
     <string name="scancode">key %s</string>
     <string name="dialog_delete">Удалить %s ?</string>
     <string name="error_file_delete">Не удалось удалить!</string>
@@ -104,15 +106,17 @@
     <string name="item_menu_use_this_kl">Использовать эту конфигурацию</string>
     <!-- dialog -->
     <string name="dialog_error_unknown_vid_pid">Нельзя сохранить в файл, т.к. неизвестен VID и PID !</string>
-    <string name="device"><![CDATA[<имя_устройства>]]>\nVendor_????_Product_????</string>
+    <string name="device">id: ?\nимя: ?\nфайл: Vendor_????_Product_????</string>
     <string name="dialog_moving_backups_title">Резервная копия</string>
     <string name="dialog_moving_backups">Перемещение..</string>
     <!-- dialog -->
     <string name="dialog_android_kitkat">Android 4.4 и ниже могут неправильно определять геймпад (а точнее VID и PID) !</string>
     <string name="dialog_android_kitkat_ok">ПОНЯТНО</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">ОТМЕНА</string>
     <!-- dialog donate -->
     <string name="dialog_donate_title">Donate</string>
     <string name="dialog_donate_ok">OK</string>
-    <string name="dialog_donate_cancel">CANCEL</string>
+    <string name="dialog_donate_cancel">ОТМЕНА</string>
 
 </resources>

@@ -54,7 +54,7 @@
 
     <!-- log -->
     <string name="device_name">%s</string>
-    <string name="device_vid_pid">Vendor_%!$s_Product_%2$s</string>
+    <string name="device_vid_pid">Vendor_%1$s_Product_%2$s</string>
     <string name="vid_pid">Vendor_%1$s_Product_%2$s</string>
 
     <!-- errors -->
@@ -63,10 +63,12 @@
     <string name="error_file_exists">This file already exists!</string>
     <string name="error_file_create">Error creating file!</string>
     <string name="error_root_access">To create a file needed root!</string>
+    <string name="error_save_root_access">To save a file needed root!</string>
     <string name="error_file_wrong">Set file name</string>
     <string name="error_file_save">Error saving!</string>
     <string name="error_file_save_ok">Saved</string>
     <string name="error_file_save_message">Save file ?</string>
+    <string name="error_system_in_ro_mode">File system in read only mode. You should remount file system to write mode and then try to save again.</string>
     <string name="scancode">key %s</string>
     <string name="replace">REPLACE</string>
     <string name="error_cant_create_new_file_with_root">No permissions to create new file!</string>
@@ -103,12 +105,14 @@
     <string name="item_menu_use_this_kl">Use this config</string>
     <!-- dialog -->
     <string name="dialog_error_unknown_vid_pid">You can not save to file, because unknown VID/PID !</string>
-    <string name="device"><![CDATA[<device_name>]]>\nVendor_????_Product_????</string>
+    <string name="device">id: ?\nname: ?\nfile: Vendor_????_Product_????</string>
     <string name="dialog_moving_backups_title">Backups</string>
     <string name="dialog_moving_backups">Moving..</string>
     <!-- dialog -->
     <string name="dialog_android_kitkat">Android 4.4 and below may incorrectly identify a gamepad (VID and PID) !</string>
     <string name="dialog_android_kitkat_ok">UNDERSTAND</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">CANCEL</string>
     <!-- dialog donate -->
     <string name="dialog_donate_title">Donate</string>
     <string name="dialog_donate_ok">OK</string>
