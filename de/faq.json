@@ -1,30 +1,30 @@
 [
   {
-    "q": "GamepadTester does not display the pressed buttons",
-    "a": "You must first connect the gamepad, then open GamepadTester"
+    "q": "GamepadTester zeigt nicht die gedrückten Tasten an.",
+    "a": "Du musst erst das Gamepad verbinden, und dann GamepadTester öffnen."
   },
   {
-    "q": "Gamepad connected but GamepadTester still does not display the pressed buttons",
-    "a": "Probably a gamepad needs in drivers"
+    "q": "Das Gamepad ist verbunden aber GamepadTester zeigt die gedrückten Tasten noch immer nicht an",
+    "a": "Das Gamepad braucht eventuell eine Treiber."
   },
   {
-    "q": "I can not save the config of my gamepad to the .kl file",
-    "a": "You need the permission of the root user"
+    "q": "Ich kann die Konfiguration von meinem Gamepad nicht auf die .kl Datei speichern.",
+    "a": "Du benötigst Root-User Rechte."
   },
   {
-    "q": "How to get the root?",
-    "a": "For each device it is individual, search in the Internet!"
+    "q": "Wie bekomme ich Root-Rechte?",
+    "a": "Das ist bei jedem Gerät anders, suche im Internet!"
   },
   {
-    "q": "I have a root but I still can not save the config",
-    "a": "Probably the file system is in read-only mode. You should to switch it to the write mode"
+    "q": "Ich habe Root-Rechte aber ich kann die Konfiguration immer noch nicht speichern.",
+    "a": "Vielleicht ist das Dateisystem im Lesemodus. Du solltest zum Bearbeitungsmodus wechseln.
   },
   {
-    "q": "How can I change the .kl file?",
-    "a": "You can make patch (update.zip with right .kl file) for your android device (firmware). Then patch device in recovery (FastBoot/TWRP/CWM)"
+    "q": "Wie kann ich die .kl Datei wechseln?",
+    "a": "Patche (update.zip mit korrekter .kl file) dein Android Gerät (firmware). Dann patche in recovery (FastBoot/TWRP/CWM)."
   },
   {
-    "q": "Where are the .kl files stored?",
+    "q": "Wo sind die .kl Dateien gespeichert?",
     "a": "/system/usr/keylayout"
   },
   {
@@ -32,15 +32,15 @@
     "a": "<your_storage>/GamepadTester"
   },
   {
-    "q": "How can I learn more about .kl files?",
-    "a": "Search the Internet for \"Key Layout Files\""
+    "q": "Wo kann ich mehr über .kl Dateien erfahren?",
+    "a": "Such im Internet nach \"Key Layout Files\""
   },
   {
-    "q": "On which gamepads was the application tested?",
+    "q": "An welchen Gamepads wurde die Applikation getestet?",
     "a": "DEXP G-1, Terios T3, IPEGA PG-9076, Mocute 032"
   },
   {
-    "q": "Why do I need a \"connected\" screen?",
-    "a": "It displays which input devices are currently connected. If the gamepad is connected, its name will be exactly there"
+    "q": "Wofür brauche ich ein \"connected\" Bildshirm?",
+    "a": "Es zeigt an welche Eingabegeräte zurzeit verbunden sind. Wenn  das Gamepad verbunden ist, wird der Name genau dort angezeigt."
   }
 ]
