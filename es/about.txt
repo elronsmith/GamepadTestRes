@@ -2,13 +2,15 @@
 Version: $appVersionName
 Developer: Elron
 Email: help.gamepad.tester@gmail.com
-Translate to german: <your_name>
+Translate to german: Roman F.
 Translate to spanish: <your_name>
+
+Version 18.08.15
+ - add language german
 
 Version 18.06.04
  - new design and navigation
  - added FAQ
- - add language german
 
 Version 17.03.24
  - bug fixes
