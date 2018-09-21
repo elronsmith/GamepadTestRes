@@ -17,7 +17,7 @@
   },
   {
     "q": "Ich habe Root-Rechte aber ich kann die Konfiguration immer noch nicht speichern.",
-    "a": "Vielleicht ist das Dateisystem im Lesemodus. Du solltest zum Bearbeitungsmodus wechseln.
+    "a": "Vielleicht ist das Dateisystem im Lesemodus. Du solltest zum Bearbeitungsmodus wechseln."
   },
   {
     "q": "Wie kann ich die .kl Datei wechseln?",
@@ -29,7 +29,7 @@
   },
   {
     "q": "Wo werden die Backups gespeichert?",
-    "a": "<your_storage>/GamepadTester"
+    "a": "$rootGamepadTester"
   },
   {
     "q": "Wo kann ich mehr über .kl Dateien erfahren?",

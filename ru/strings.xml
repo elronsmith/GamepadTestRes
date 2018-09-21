@@ -18,11 +18,14 @@
     <string name="menu_devices">Устройства</string>
     <string name="menu_file_edit">Редактировать</string>
     <string name="menu_file_save">Сохранить</string>
+    <string name="menu_file_save_to_backup">Сохранить как резервную копию</string>
+    <string name="menu_file_save_to_temp">Сохранить во временную папку</string>
     <string name="menu_ignore_axis">Игнорировать оси</string>
     <string name="menu_lumiere">Lumiere</string>
     <string name="menu_bottom_backup">Сделать резервную копию</string>
     <string name="menu_bottom_delete">Удалить</string>
     <string name="menu_bottom_restore">Восстановить</string>
+    <string name="menu_remap_button">Переназначить кнопку</string>
 
     <!-- main -->
     <string name="main_caption">Перед запуском приложения подключите устройство через Bluetooth или USB(OTG)</string>
@@ -69,41 +72,55 @@
     <string name="error_file_save">Ошибка при сохранении!</string>
     <string name="error_file_save_ok">Сохранено</string>
     <string name="error_file_save_message">Сохранить файл ?</string>
+    <string name="error_file_save_message2">Не удалось сохранить в файл: </string>
+    <string name="error_file_save_message_ok">Сохранено в файл: </string>
     <string name="error_system_in_ro_mode">Файловая система в режиме только для чтения. Перемонтируйте в режим для записи и попробуйте снова.</string>
-    <string name="scancode">key %s</string>
+    <string name="error_cant_create_new_file_with_root">Нет разрешения на создание файла!</string>
+    <string name="error_file_create_ok">Файл создан</string>
+    <string name="error_file_create_incorrect">Не верный формат файла</string>
+
+    <!-- dialogs -->
     <string name="dialog_delete">Удалить %s ?</string>
-    <string name="error_file_delete">Не удалось удалить!</string>
+    <string name="dialog_delete_error_message">Не удалось удалить файл!</string>
+    <string name="dialog_error_title">Ошибка</string>
+
+    <!-- permissions -->
+    <string name="permission_write">Нужно разрешить доступ к флешке!</string>
+    <string name="permission_write_rationale">Нет доступа к флешке, нужно разрешить доступ: нажмите [разрешить] или откройте [Настройки] > [Разрешения]</string>
+    <string name="permission_button_allow">РАЗРЕШИТЬ</string>
+    <string name="permission_button_close">ЗАКРЫТЬ</string>
+    <string name="permission_button_settings">НАСТРОЙКИ</string>
+
+    <string name="scancode">key %s</string>
+    <string name="replace">ЗАМЕНИТЬ</string>
     <string name="main_keyboard">Клавиатура</string>
     <string name="main_scancode">Скан-код</string>
     <string name="key_scancode_button">key %1$s %2$s</string>
     <string name="text_name_new">> %s</string>
-    <string name="replace">ЗАМЕНИТЬ</string>
-    <string name="error_cant_create_new_file_with_root">Нет разрешения на создание файла!</string>
-    <string name="error_file_create_ok">Файл создан</string>
-    <string name="error_file_create_incorrect">Не верный формат файла</string>
+    <string name="title_connected">Подключенные</string>
+    <string name="about">О программе</string>
 
     <string name="message_file_backup_ok">Резервная копия создана!</string>
     <string name="message_file_backup_error">Не удалось создать резервную копию!</string>
     <string name="message_file_restore_ok">Файл восстановлен!</string>
     <string name="message_file_restore_error">Не удалось восстановить файл!</string>
+    <string name="message_file_use_this_kl_ok">Файл сохранен!</string>
+    <string name="message_file_use_this_kl_error">Не удалось сохранить эту конфигурацию!</string>
     <string name="message_file_exists_replace">Файл уже существует!</string>
-    <string name="title_connected">Подключенные</string>
-    <string name="about">О программе</string>
     <!-- support -->
     <string name="project_donate">Помощь в развитии</string>
-    <string name="dialog_support_message">Если вы хотите чтобы это приложение развивалось, то вы можете посмотреть видео рекламу.\nПоказать видео рекламу ?</string>
-    <string name="dialog_button_yes">ДА</string>
-    <string name="dialog_support_result_error">Не удалось загрузить видео рекламу, попробуйте позже!</string>
-    <string name="dialog_support_result_ok">Спасибо за просмотр рекламы!</string>
     <!-- lang -->
     <string name="language">Язык</string>
     <string name="lang">Русский</string>
     <string name="dialog_language">Если это не ваш родной язык и вы хотите чтобы приложение было на вашем родном язык, то напишите мне на почту.</string>
+
     <!-- dialog fragment item -->
     <string name="item_menu_delete">Удалить файл</string>
     <string name="item_menu_make_backup">Сделать резервную копию</string>
     <string name="item_menu_make_restore">Восстановить</string>
     <string name="item_menu_use_this_kl">Использовать эту конфигурацию</string>
+    <!-- dialog -->
+    <string name="dialog_restore_message">Восстановлено</string>
     <!-- dialog -->
     <string name="dialog_error_unknown_vid_pid">Нельзя сохранить в файл, т.к. неизвестен VID и PID !</string>
     <string name="device">id: ?\nимя: ?\nфайл: Vendor_????_Product_????</string>
@@ -114,9 +131,28 @@
     <string name="dialog_android_kitkat_ok">ПОНЯТНО</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">ОТМЕНА</string>
-    <!-- dialog donate -->
-    <string name="dialog_donate_title">Donate</string>
-    <string name="dialog_donate_ok">OK</string>
-    <string name="dialog_donate_cancel">ОТМЕНА</string>
+    <string name="dialog_button_yes">ДА</string>
+    <string name="dialog_button_next">ДАЛЕЕ</string>
+
+    <!-- remap -->
+    <string name="dialog_remap_message1">1. Нажмите на кнопку на геймпаде</string>
+    <string name="dialog_remap_message2">2. Выберите новую кнопку</string>
+    <string name="dialog_remap_pressed_button">Нажатая кнопка:</string>
+    <string name="dialog_remap_message_empty">не выбрано</string>
+    <string name="dialog_remap_gamepad">Кнопка на геймпаде</string>
+    <string name="dialog_remap_keyboard">Кнопка на клавиатуре</string>
+    <string name="dialog_remap_error_message">Нужно сначала подключить Gamepad</string>
+    <string name="remap_keyboard_empty">пусто</string>
+    <string name="remap_button_text">ПЕРЕНАЗНАЧИТЬ</string>
+    <string name="remap_pressed_button_name_code">%s (код: %s)</string>
+    <string name="remap_text_keyboard_examples">Примеры кнопок для клавиатуры смотрите в файле Generic.kl</string>
+
+    <!-- donate -->
+    <string name="button_donate">Донат</string>
+    <string name="donate_caption">GamepadTester бесплатна. \nВы можете поддержать разработку приложения донатом. \nНа андроиде должно быть больше игр с поддержкой геймпада и я планирую создавать игры с геймпадами.</string>
+    <string name="dialog_donate_thank_you_title">Спасибо</string>
+    <string name="dialog_donate_thank_you">Спасибо за донат :)\n</string>
+    <string name="dialog_donate_thank_you2">Ого! \nСпасибо за донат :)\n</string>
+    <string name="dialog_donate_thank_you3">Ого! \nБольшое спасибо за донат :)\n</string>
 
 </resources>

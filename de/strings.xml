@@ -17,12 +17,15 @@
     <string name="menu_devices">Geräte</string>
     <string name="menu_file_edit">Bearbeiten</string>
     <string name="menu_file_save">Speichern</string>
+    <string name="menu_file_save_to_backup">Save to back up</string>
+    <string name="menu_file_save_to_temp">Save to temp</string>
     <string name="menu_ignore_axis">Achse ignorieren</string>
     <string name="menu_lumiere">Lumiere</string>
     <string name="menu_file_new">Neue Datei</string>
     <string name="menu_bottom_backup">Backup erstellen</string>
     <string name="menu_bottom_delete">Löschen</string>
     <string name="menu_bottom_restore">Wiederherstellen</string>
+    <string name="menu_remap_button">Remap button</string>
 
     <!-- main -->
     <string name="main_caption">Before start the app you should connect your device via Bluetooth or USB(OTG)</string>
@@ -68,41 +71,56 @@
     <string name="error_file_save">Error saving!</string>
     <string name="error_file_save_ok">Saved</string>
     <string name="error_file_save_message">Save file ?</string>
+    <string name="error_file_save_message2">Can\'t save to file: </string>
+    <string name="error_file_save_message_ok">Saved to file: </string>
     <string name="error_system_in_ro_mode">File system in read only mode. You should remount file system to write mode and then try to save again.</string>
-    <string name="scancode">key %s</string>
-    <string name="replace">REPLACE</string>
     <string name="error_cant_create_new_file_with_root">No permissions to create new file!</string>
     <string name="error_file_create_ok">File created</string>
     <string name="error_file_create_incorrect">Incorrect file format</string>
 
+    <!-- dialogs -->
     <string name="dialog_delete">Delete %s ?</string>
-    <string name="error_file_delete">Can not delete!</string>
+    <string name="dialog_delete_error_message">Can not delete file!</string>
+    <string name="dialog_error_title">Error</string>
+
+    <!-- permissions -->
+    <string name="permission_write">Need allow permission to sdcard!</string>
+    <string name="permission_write_rationale">No permission to sdcard, you should turn on: please tap [Allow] or open [Settings] > [Permissions]</string>
+    <string name="permission_button_allow">ALLOW</string>
+    <string name="permission_button_close">CLOSE</string>
+    <string name="permission_button_settings">SETTINGS</string>
+
+    <string name="scancode">key %s</string>
+    <string name="replace">REPLACE</string>
     <string name="main_keyboard">Keyboard</string>
     <string name="main_scancode">Scancode</string>
     <string name="key_scancode_button">key %1$s %2$s</string>
     <string name="text_name_new">> %s</string>
+    <string name="title_connected">Connected</string>
+    <string name="about">About</string>
+    <string name="file">File: </string>
+
     <string name="message_file_backup_ok">Backup created!</string>
     <string name="message_file_backup_error">Cannot to make a backup!</string>
     <string name="message_file_restore_ok">Successfully restored!</string>
     <string name="message_file_restore_error">Cannot to restore a file!</string>
+    <string name="message_file_use_this_kl_ok">File saved!</string>
+    <string name="message_file_use_this_kl_error">Can not save this config!</string>
     <string name="message_file_exists_replace">File already exists!</string>
-    <string name="title_connected">Connected</string>
-    <string name="about">About</string>
     <!-- support -->
     <string name="project_donate">Support this app</string>
-    <string name="dialog_support_message">If you want to support this app, you can watch the video advertising.\nOpen video ?</string>
-    <string name="dialog_button_yes">YES</string>
-    <string name="dialog_support_result_error">Could not download video ads, please try again later!</string>
-    <string name="dialog_support_result_ok">Thank you for viewing the advertisement!</string>
     <!-- lang -->
     <string name="language">Language</string>
     <string name="lang">English</string>
     <string name="dialog_language">If this is not your native language and you want this app will be in your native language, you can email me.</string>
+
     <!-- dialog fragment item -->
     <string name="item_menu_delete">Delete file</string>
     <string name="item_menu_make_backup">Make backup</string>
     <string name="item_menu_make_restore">Restore</string>
     <string name="item_menu_use_this_kl">Use this config</string>
+    <!-- dialog -->
+    <string name="dialog_restore_message">Restored</string>
     <!-- dialog -->
     <string name="dialog_error_unknown_vid_pid">You can not save to file, because unknown VID/PID !</string>
     <string name="device">id: ?\nname: ?\nfile: Vendor_????_Product_????</string>
@@ -113,9 +131,28 @@
     <string name="dialog_android_kitkat_ok">UNDERSTAND</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">CANCEL</string>
-    <!-- dialog donate -->
-    <string name="dialog_donate_title">Donate</string>
-    <string name="dialog_donate_ok">OK</string>
-    <string name="dialog_donate_cancel">CANCEL</string>
+    <string name="dialog_button_yes">YES</string>
+    <string name="dialog_button_next">NEXT</string>
+
+    <!-- remap -->
+    <string name="dialog_remap_message1">1. Press button on Gamepad to remap</string>
+    <string name="dialog_remap_message2">2. Select new button</string>
+    <string name="dialog_remap_pressed_button">Pressed button:</string>
+    <string name="dialog_remap_message_empty">not pressed</string>
+    <string name="dialog_remap_gamepad">Remap to gamepad button</string>
+    <string name="dialog_remap_keyboard">Remap to keyboard button</string>
+    <string name="dialog_remap_error_message">Gamepad should be connected</string>
+    <string name="remap_keyboard_empty">empty</string>
+    <string name="remap_button_text">REMAP</string>
+    <string name="remap_pressed_button_name_code">%s (code: %s)</string>
+    <string name="remap_text_keyboard_examples">Examples of buttons for the keyboard see in the Generic.kl file</string>
+
+    <!-- donate -->
+    <string name="button_donate">Donate</string>
+    <string name="donate_caption">GamepadTester is free. \nYou can show your appreciation and support development by donating. \nOn android should be more games with support for the gamepad. And I plan to create games with gamepads.</string>
+    <string name="dialog_donate_thank_you_title">Thank You</string>
+    <string name="dialog_donate_thank_you">Thank you for donation :)</string>
+    <string name="dialog_donate_thank_you2">Wow! \nThank you for donation :)\n</string>
+    <string name="dialog_donate_thank_you3">Wow! \nThank you very much for donation :)\n</string>
 
 </resources>

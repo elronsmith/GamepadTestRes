@@ -5,7 +5,18 @@ Email: help.gamepad.tester@gmail.com
 Übersetzung auf deutsch: Roman F.
 Übersetzung auf spanisch: <your_name>
 
-Version 18.08.15
+Version 18.09.21
+ - add "remap button"
+ - add "save to back up"
+ - add "save to temp"
+ - bug fixes
+
+Version 18.09.05
+ - add axis "gas" (for right trigger)
+ - add donation
+ - bug fixes
+
+Version 18.08.16
  - Deutsche Sprache hinzugefügt
 
 Version 18.06.04

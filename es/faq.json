@@ -29,7 +29,7 @@
   },
   {
     "q": "Where are the buckup stored?",
-    "a": "<your_storage>/GamepadTester"
+    "a": "$rootGamepadTester"
   },
   {
     "q": "How can I learn more about .kl files?",
