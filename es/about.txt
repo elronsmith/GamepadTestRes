@@ -3,7 +3,12 @@ Version: $appVersionName
 Developer: Elron
 Email: help.gamepad.tester@gmail.com
 Translate to german: Roman F.
-Translate to spanish: <your_name>
+
+Version 19.03.13
+ - now the tests do not require permission to write SdCard, if there are errors, go to the application settings and allow access to SdCard
+
+Version 18.11.16
+ - add Privacy Policy
 
 Version 18.09.21
  - add "remap button"
